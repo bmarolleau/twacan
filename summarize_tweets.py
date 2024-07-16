@@ -215,7 +215,7 @@ resultsDF = pd.DataFrame(columns=['class', 'summary', 'start-date', 'end_date'])
 if btn:
   
     twittos=twittosSelected[0]
-    txt='Generating summary for'+twittos+' for '+str(horizon_tweets)+' tweets...'
+    txt='Generating summary for '+twittos+' for '+str(horizon_tweets)+' tweets...'
     st.write(txt)
     
     directory_path = '.'
